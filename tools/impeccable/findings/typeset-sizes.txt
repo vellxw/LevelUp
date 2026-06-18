@@ -1,0 +1,52 @@
+actions\FollowButton.tsx:20:        size === "sm" ? "h-9 px-3 text-[13px]" : "h-11 px-5 text-[15px]",
+actions\SaveButton.tsx:34:        "inline-flex items-center justify-center gap-2 rounded-sm border text-[13px] transition-colors duration-[var(--dur-fast)]",
+cards\LuNewsCard.tsx:25:            <p className="mt-1 lu-mono text-[11px] text-ink-faint">{relativeTime(item.dateISO)}</p>
+cards\LuNewsCard.tsx:50:          <div className="mt-auto flex items-center justify-between pt-3 lu-mono text-[11px] text-ink-faint">
+cards\LuVideoCard.tsx:24:          <span className="absolute bottom-2 right-2 rounded-xs bg-black/70 px-1.5 py-0.5 lu-mono text-[11px] text-white">
+cards\LuVideoCard.tsx:35:          <p className="mt-2 lu-mono text-[11px] text-ink-faint">{formatViews(video.views)} vistas</p>
+game\GameTabs.tsx:39:            className={cn("relative shrink-0 px-4 py-3 text-[14px] font-medium transition-colors", tab === t.id ? "text-ink" : "text-ink-muted hover:text-ink")}>
+game\GameTabs.tsx:72:                <p className="mt-1 lu-mono text-[12px] text-ink-faint">Por {review.author} - Probado en {review.platformTested}</p>
+game\GameTabs.tsx:74:                <Link href={`/reviews/${review.slug}`} className="mt-4 inline-block lu-mono text-[12px] uppercase tracking-wider text-brand hover:underline">Leer review completa -&gt;</Link>
+game\GameTabs.tsx:111:                  <p className="mt-2 lu-mono text-[11px] text-ink-faint">{d.replies} respuestas - {relativeTime(d.dateISO)}</p>
+home\Hero.tsx:31:              <span className="lu-mono text-[12px] text-ink-muted">{String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}</span>
+home\Hero.tsx:33:            <h1 className="max-w-3xl text-[clamp(2rem,5vw,4.2rem)] font-bold uppercase leading-[0.95] text-ink lu-text-balance min-h-[1.1em]">
+home\OffersStrip.tsx:19:                <p className="lu-mono text-[11px] text-ink-faint">{o.store}</p>
+home\OffersStrip.tsx:22:                <span className="inline-flex items-center gap-1 rounded-xs bg-positive/15 px-1.5 py-0.5 lu-mono text-[11px] text-positive">
+home\OffersStrip.tsx:26:                <p className="lu-mono text-[11px] text-ink-faint line-through">{priceFormat(o.oldPrice)}</p>
+news\LevelReader.tsx:22:            className={cn("flex items-center gap-2 rounded-sm border px-3 py-2.5 text-left text-[13px] font-medium transition-colors",
+shell\Footer.tsx:15:            <p className="mt-4 lu-mono text-[11px] uppercase tracking-wider text-ink-faint">
+shell\Footer.tsx:29:        <div className="mt-10 flex flex-col gap-2 border-t border-line pt-6 lu-mono text-[11px] uppercase tracking-wider text-ink-faint sm:flex-row sm:justify-between">
+shell\Header.tsx:28:                  "relative px-3 py-2 text-[14px] font-medium transition-colors block",
+shell\Header.tsx:54:                <span className="hidden lu-mono text-[11px] text-ink-faint sm:inline">{followCount} seguidos</span>
+shell\MobileNav.tsx:33:                  "flex min-h-[56px] flex-col items-center justify-center gap-1 py-2 text-[10px] font-medium transition-colors",
+ui\CustomCursor.tsx:125:          "fixed left-0 top-0 flex items-center justify-center rounded-full border text-[9px] font-bold uppercase tracking-widest text-white transition-all duration-300 ease-out",
+ui\InteractiveRadar.tsx:149:          <text x="200" y="24" className="fill-ink-faint font-mono text-[9px] text-center" textAnchor="middle">000° N</text>
+ui\InteractiveRadar.tsx:150:          <text x="375" y="203" className="fill-ink-faint font-mono text-[9px]" textAnchor="start">090° E</text>
+ui\InteractiveRadar.tsx:151:          <text x="200" y="386" className="fill-ink-faint font-mono text-[9px]" textAnchor="middle">180° S</text>
+ui\InteractiveRadar.tsx:152:          <text x="25" y="203" className="fill-ink-faint font-mono text-[9px]" textAnchor="end">270° W</text>
+ui\InteractiveRadar.tsx:240:            <div className="lu-mono text-[9px] text-brand tracking-widest uppercase">
+ui\InteractiveRadar.tsx:246:            <p className="lu-mono text-[9px] text-ink-muted">
+ui\InteractiveRadar.tsx:255:        <div className="absolute top-0 right-0 p-3 lu-mono text-[9px] text-ink-faint">
+ui\InteractiveRadar.tsx:273:                  <span className="lu-mono text-[9px] text-brand">SEGUIMIENTO ACTIVO</span>
+ui\InteractiveRadar.tsx:274:                  <span className="lu-mono text-[9px] text-ink-muted">ID: #{lockedBlip.game.id.slice(0, 5)}</span>
+ui\InteractiveRadar.tsx:282:              <dl className="grid grid-cols-2 gap-3 lu-mono text-[10px] text-ink-muted border-t border-line pt-3">
+ui\InteractiveRadar.tsx:302:                        className="rounded-[2px] bg-surface3 px-1.5 py-0.5 text-[9px] font-bold text-ink border border-line"
+ui\InteractiveRadar.tsx:344:              <span className="lu-mono text-[10px] text-ink-faint uppercase text-center max-w-[200px]">
+ui\InteractiveRadar.tsx:352:        <div className="mt-6 border-t border-line pt-3 lu-mono text-[9px] text-ink-faint flex justify-between">
+ui\LuBadge.tsx:30:        "inline-flex items-center gap-1.5 rounded-xs border px-2 py-0.5 text-[11px] font-mono uppercase tracking-wider",
+ui\LuButton.tsx:22:  sm: "text-[13px] h-9 px-3",
+ui\LuButton.tsx:23:  md: "text-[15px] h-11 px-5",
+ui\LuButton.tsx:24:  lg: "text-[16px] h-12 px-7",
+ui\LuChip.tsx:20:    "inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-[13px] transition-all duration-[var(--dur-fast)] ease-smooth",
+ui\LuCountdownTimer.tsx:27:      <span className="lu-mono text-[9px] uppercase tracking-wider text-ink-faint">{l}</span>
+ui\LuLiveTicker.tsx:14:            <span key={i} className="lu-mono text-[12px] uppercase tracking-wide text-ink-muted">
+ui\LuLiveTicker.tsx:21:      <Link href={href} className="shrink-0 lu-mono text-[11px] uppercase tracking-wider text-ink-muted hover:text-brand">
+ui\LuMetricCard.tsx:22:      {hint && <p className="mt-1 text-[12px] text-ink-faint">{hint}</p>}
+ui\LuPlatformTag.tsx:10:        "inline-flex items-center rounded-xs border border-line bg-surface2 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-ink-muted",
+ui\LuSectionHeader.tsx:26:        <h2 className="text-[clamp(1.6rem,3vw,2.4rem)] font-bold uppercase leading-none text-ink">{title}</h2>
+ui\LuSectionHeader.tsx:32:          className="lu-mono text-[12px] uppercase tracking-wider text-ink-muted underline-offset-4 transition-colors hover:text-brand"
+ui\PageHeader.tsx:20:        <h1 className="text-[clamp(2rem,5vw,3.5rem)] font-bold uppercase leading-none text-ink">{title}</h1>
+ui\Preloader.tsx:80:      <div className="relative flex justify-between font-mono text-[10px] uppercase tracking-wider text-brand">
+ui\Preloader.tsx:87:        <div className="font-display text-[12vw] font-bold leading-none text-ink">
+ui\Preloader.tsx:91:        <div className="mt-4 font-mono text-[12px] uppercase tracking-widest text-ink-muted">
+ui\Preloader.tsx:98:      <div className="relative flex flex-col gap-2 font-mono text-[10px] text-ink-faint">

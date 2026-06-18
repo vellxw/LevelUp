@@ -1,0 +1,29 @@
+buscar\page.tsx:34:          <p className="lu-mono text-[12px] text-ink-faint">{res.total} resultados para {q}</p>
+comunidad\page.tsx:30:                    {game && <Link href={`/juegos/${game.slug}`} className="lu-mono text-[11px] text-ink-faint hover:text-brand">#{game.title}</Link>}
+comunidad\page.tsx:34:                  <p className="mt-2 lu-mono text-[11px] text-ink-faint">Por {d.author} - {relativeTime(d.dateISO)}</p>
+comunidad\page.tsx:36:                <div className="flex shrink-0 items-center gap-4 lu-mono text-[12px] text-ink-faint">
+design-system\page.tsx:63:              <div className="p-3"><p className="font-display text-sm font-semibold text-ink">{c.name}</p><p className="lu-mono text-[11px] text-ink-faint">{c.hex}</p></div>
+design-system\page.tsx:85:            <div className="flex flex-wrap gap-3">{radii.map((r) => <div key={r.name} className={`flex h-16 w-16 items-center justify-center border border-line bg-surface3 ${r.cls} lu-mono text-[11px] text-ink-muted`}>{r.name}</div>)}</div>
+design-system\page.tsx:165:        <div className="grid grid-cols-12 gap-2">{Array.from({ length: 12 }).map((_, i) => <div key={i} className="col-span-1 rounded-xs bg-surface3 py-3 text-center lu-mono text-[10px] text-ink-faint">{i + 1}</div>)}</div>
+juegos\page.tsx:75:            <p className="lu-mono text-[12px] text-ink-faint">{filtered.length} de {games.length} juegos</p>
+juegos\[slug]\page.tsx:57:              <h1 className="text-[clamp(2rem,5vw,3.6rem)] font-bold uppercase leading-none text-ink">{game.title}</h1>
+juegos\[slug]\page.tsx:58:              <p className="mt-2 lu-mono text-[13px] text-ink-muted">{game.studio} - {game.publisher}</p>
+juegos\[slug]\page.tsx:66:                    <span className="lu-mono text-[9px] uppercase tracking-wider text-ink-faint">Editorial</span>
+juegos\[slug]\page.tsx:72:                    <span className="lu-mono text-[9px] uppercase tracking-wider text-ink-faint">Comunidad</span>
+juegos\[slug]\page.tsx:87:              <span className="lu-mono text-[12px] text-ink-faint line-through">{priceFormat(offer.oldPrice)}</span>
+juegos\[slug]\page.tsx:88:              <span className="lu-mono text-[12px] text-ink-muted">en {offer.store}</span>
+mi-radar\page.tsx:132:                        <p className="lu-mono text-[11px] text-ink-faint">{on ? "Recibir\u00e1s avisos de novedades" : "Sin alertas activas"}</p>
+mi-radar\page.tsx:135:                        className={cn("inline-flex items-center gap-2 rounded-sm border px-3 py-2 text-[13px] transition-colors", on ? "border-positive/50 bg-positive/12 text-positive" : "border-line bg-surface3 text-ink-muted hover:text-ink")}>
+noticias\[slug]\page.tsx:48:              <span className="lu-mono text-[12px] text-ink-faint">{formatDate(item.dateISO)} - {item.readTimeMin} min</span>
+noticias\[slug]\page.tsx:50:            <h1 className="text-[clamp(1.8rem,4.5vw,3.4rem)] font-bold uppercase leading-none text-ink lu-text-balance">{item.title}</h1>
+noticias\[slug]\page.tsx:53:              <span className="lu-mono text-[12px] text-ink-faint">Por {item.author}</span>
+notificaciones\page.tsx:46:                    <div className="mt-1 flex items-center gap-3 lu-mono text-[11px] text-ink-faint">
+onboarding\page.tsx:58:                    "flex h-8 w-8 shrink-0 items-center justify-center rounded-full border font-mono text-[12px]",
+onboarding\page.tsx:64:                <span className={cn("hidden text-[12px] uppercase tracking-wide sm:inline", i === step ? "text-ink" : "text-ink-faint")}>{label}</span>
+page.tsx:140:                  <div className="mt-auto flex items-center gap-4 pt-3 lu-mono text-[11px] text-ink-faint">
+page.tsx:159:              <h2 className="text-[clamp(1.8rem,4vw,3rem)] font-bold uppercase leading-none text-ink">Arm\u00e1 tu radar gamer</h2>
+perfil\page.tsx:68:                      <span className="shrink-0 lu-mono text-[11px] text-ink-faint">{relativeTime(new Date(h.at).toISOString())}</span>
+perfil\page.tsx:99:                    <button type="button" onClick={() => s.toggleAlert(g.id)} className={s.alerts[g.id] ? "lu-mono text-[12px] text-positive" : "lu-mono text-[12px] text-ink-faint hover:text-ink"}>{s.alerts[g.id] ? "Activadas" : "Desactivadas"}</button>
+reviews\[slug]\page.tsx:49:              <h1 className="text-[clamp(1.8rem,4vw,3rem)] font-bold uppercase leading-none text-ink">{review.title}</h1>
+reviews\[slug]\page.tsx:50:              <p className="mt-3 lu-mono text-[12px] text-ink-faint">Por {review.author} - {formatDate(review.dateISO)}</p>
+videos\page.tsx:58:            <p className="mt-2 lu-mono text-[12px] text-ink-muted">{current.category} - {formatDuration(current.durationSec)} - {formatViews(current.views)} vistas{game ? ` - ${game.title}` : ""}</p>
