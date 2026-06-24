@@ -151,7 +151,7 @@ export const news: NewsItem[] = [
     title: "CAPCOM vendió 59 millones de juegos y rompió su récord histórico impulsada por Resident Evil Requiem",
     excerpt: "La japonesa cerró su año fiscal con 59.07 millones de unidades, un 83.7% correspondientes a catálogo y un 93% en ventas digitales.",
     category: "Industria", dateISO: "2026-06-17T09:00:00Z", author: "Dan Villalobos",
-    gameId: null, readTimeMin: 3, seed: "capcomrecord",
+    gameId: "g-mhwilds", readTimeMin: 3, seed: "capcomrecord",
     coverUrl: "https://www.levelup.com/resizer/v2/BRMVWJHM25AHBAND6QJWFZOG5A.jpg?auth=1e71ee048c0cfb837db4959b89930b1e05f2d258cfb9ba60ee4d7171abb27d7d&smart=true&width=900&height=551&quality=70",
     levels: {
       quePaso: "CAPCOM reportó resultados de su año fiscal cerrado el 31 de marzo de 2026: 59.07 millones de juegos vendidos (vs 51.87 millones del año anterior), con un 83.7% de las ventas provenant de títulos de catálogo y un 93% de descargas digitales.",
@@ -223,7 +223,7 @@ export const news: NewsItem[] = [
     title: "Bungie despedirá a la mitad de su personal tras el final de Destiny 2 y la tibia respuesta de Marathon",
     excerpt: "Reportes indican que más de 400 empleados perderán su empleo en las próximas semanas, marcando una reestructuración profunda en el estudio de PlayStation.",
     category: "Industria", dateISO: "2026-06-17T17:00:00Z", author: "Redacción LevelUp",
-    gameId: null, readTimeMin: 4, seed: "bungie",
+    gameId: "g-helldivers", readTimeMin: 4, seed: "bungie",
     coverUrl: "https://www.levelup.com/resizer/v2/FSM2MUH5DBCKFH6N5Z4WD2UKQU.jpg?auth=a65a84a18f200587f0bd0728d3fbe12a07353db295e01b1e29454a468ced9d32&focal=648%2C484&width=900&height=536&quality=70",
     levels: {
       quePaso: "Bungie, el estudio de PlayStation responsable de Destiny 2 y Marathon, está ejecutando una nueva ola de despidos que, según reportes, podría afectar a la mitad de su plantilla, con al menos 400 trabajadores perdiendo su empleo en las próximas semanas.",
@@ -241,7 +241,7 @@ export const news: NewsItem[] = [
     title: "Rockstar regalará la mejor versión de GTA V a jugadores de PS5 y Xbox que cumplan una condición específica",
     excerpt: "El estudio prepara una sorpresa para jugadores de consolas; la mayoría de los usuarios podrá conseguir la versión Enhanced sin mover un dedo.",
     category: "Lanzamientos", dateISO: "2026-06-17T19:00:00Z", author: "Redacción LevelUp",
-    gameId: "g-cyberpunk", readTimeMin: 2, seed: "gtavgratis",
+    gameId: "g-gta6", readTimeMin: 2, seed: "gtavgratis",
     coverUrl: "https://www.levelup.com/resizer/v2/KURIVVQ3EBFCFIQMJ4I46ZSNRU.jpg?auth=ba1e5ea4188b99402727b6f4d66888305dca7d640b2f0929bff7d20ecf900bd3&smart=true&width=900&height=503&quality=70",
     levels: {
       quePaso: "Rockstar Games está preparando una promoción en la que regalará la versión Enhanced Edition de GTA V a jugadores de PlayStation 5 y Xbox Series X|S que cumplan una condición específica vinculada a cuentas existentes o活动时间 limitados.",
@@ -259,7 +259,7 @@ export const news: NewsItem[] = [
     title: "La comunidad de Marathon 2 está furiosa con una nueva actualización; asegura que afecta a jugadores de menor nivel",
     excerpt: "El shooter de extracción de Bungie vive momentos complicados tras el inicio de su segunda temporada, con críticas por la curva de dificultad.",
     category: "Esports", dateISO: "2026-06-18T05:00:00Z", author: "Redacción LevelUp",
-    gameId: null, readTimeMin: 3, seed: "marathon2",
+    gameId: "g-helldivers", readTimeMin: 3, seed: "marathon2",
     coverUrl: "https://www.levelup.com/resizer/v2/BJ4TN3N4IZECHIOMEXQCT2Z424.jpg?auth=2d6a03efad397564a7d166240106ceec8957fe2ae1acaacc1107be4b5073337f&focal=670%2C382&width=900&height=451&quality=70",
     levels: {
       quePaso: "La comunidad de Marathon, el shooter de extracción de Bungie, expresó su frustración con la nueva actualización que introduce la segunda temporada. Los jugadores señalan que los ajustes afectan negativamente a los usuarios de menor nivel.",

@@ -31,7 +31,7 @@ export default function HomePage() {
   const reviewsTop = reviews.slice(0, 3);
   const videosTop = videos.slice(0, 3);
   const debatesTop = debates.slice(0, 3);
-  const briefing = news.slice(0, 7);
+  const briefing = news.filter((n) => n.id !== featured.id).slice(0, 7);
 
   return (
     <>
